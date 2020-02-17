@@ -28,8 +28,8 @@ class PlayerVsComputer(){
             keluar = "Hasil Seimbang"
             println(keluar)
         } else {
-            error = "EROR!!! Masukan Tidak Sesuai!!!\nPastikan Masukan Berupa Batu, Gunting atau Kertas"
-            (println(error))
+            keluar = "Hasil Eror"
+            (println(keluar))
         }
     }
 }
